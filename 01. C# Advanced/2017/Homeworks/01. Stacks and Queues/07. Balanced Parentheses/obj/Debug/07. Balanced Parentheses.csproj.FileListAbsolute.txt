@@ -1,0 +1,10 @@
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\07. Balanced Parentheses\bin\Debug\_07.Balanced_Parentheses.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\bin\Debug\_07.Balanced_Parentheses.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\bin\Debug\_07.Balanced_Parentheses.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\bin\Debug\_07.Balanced_Parentheses.pdb
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\obj\Debug\07. Balanced Parentheses.csprojResolveAssemblyReference.cache
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\obj\Debug\_07.Balanced_Parentheses.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\obj\Debug\_07.Balanced_Parentheses.pdb
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\bin\Debug\_07.Balanced_Parentheses.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\obj\Debug\_07.Balanced_Parentheses.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\07. Balanced Parentheses\obj\Debug\_07.Balanced_Parentheses.pdb

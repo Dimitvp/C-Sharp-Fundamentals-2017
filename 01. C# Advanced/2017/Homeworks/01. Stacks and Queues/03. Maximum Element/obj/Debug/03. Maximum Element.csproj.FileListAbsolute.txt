@@ -1,0 +1,6 @@
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\bin\Debug\_03.Maximum_Element.exe.config
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\bin\Debug\_03.Maximum_Element.exe
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\bin\Debug\_03.Maximum_Element.pdb
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\obj\Debug\03. Maximum Element.csprojResolveAssemblyReference.cache
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\obj\Debug\_03.Maximum_Element.exe
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\03. Maximum Element\obj\Debug\_03.Maximum_Element.pdb

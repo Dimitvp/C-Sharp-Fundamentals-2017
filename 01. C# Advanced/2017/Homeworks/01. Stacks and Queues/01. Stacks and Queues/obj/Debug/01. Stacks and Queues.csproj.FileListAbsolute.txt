@@ -1,0 +1,2 @@
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\01. Stacks and Queues\bin\Debug\_01.Stacks_and_Queues.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\01. Stacks and Queues\bin\Debug\_01.Stacks_and_Queues.exe.config

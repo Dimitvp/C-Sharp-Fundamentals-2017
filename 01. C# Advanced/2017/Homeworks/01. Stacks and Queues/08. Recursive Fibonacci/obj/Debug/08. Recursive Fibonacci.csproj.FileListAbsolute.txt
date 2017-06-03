@@ -1,0 +1,10 @@
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\bin\Debug\_08.Recursive_Fibonacci.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\bin\Debug\_08.Recursive_Fibonacci.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\bin\Debug\_08.Recursive_Fibonacci.pdb
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\08. Recursive Fibonacci.csprojResolveAssemblyReference.cache
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\_08.Recursive_Fibonacci.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2016\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\_08.Recursive_Fibonacci.pdb
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\bin\Debug\_08.Recursive_Fibonacci.exe.config
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\_08.Recursive_Fibonacci.exe
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\_08.Recursive_Fibonacci.pdb
+E:\01. SoftUni\6. C# Fundametals\01. C# Advanced\2017\Homeworks\01. Stacks and Queues\08. Recursive Fibonacci\obj\Debug\08. Recursive Fibonacci.csprojResolveAssemblyReference.cache

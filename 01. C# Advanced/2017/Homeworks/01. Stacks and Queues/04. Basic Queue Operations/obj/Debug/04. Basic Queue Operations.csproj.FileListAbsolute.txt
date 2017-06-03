@@ -1,0 +1,6 @@
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\bin\Debug\_04.Basic_Queue_Operations.exe.config
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\bin\Debug\_04.Basic_Queue_Operations.exe
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\bin\Debug\_04.Basic_Queue_Operations.pdb
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\obj\Debug\04. Basic Queue Operations.csprojResolveAssemblyReference.cache
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\obj\Debug\_04.Basic_Queue_Operations.exe
+E:\SoftUni\6. C# Fundametals\01. C# Advanced\01. Stacks and Queues\04. Basic Queue Operations\obj\Debug\_04.Basic_Queue_Operations.pdb
