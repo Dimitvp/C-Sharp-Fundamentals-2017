@@ -33,17 +33,24 @@ namespace BashSoft
 
                 //TODO Ptint the folder path
                 OutputWriter.WriteMessageOnNewLine(string.Format("{0}{1}", new string('-', identation), currentPath));
-                foreach (var file in Directory.GetFiles(currentPath))
+                try
                 {
-                    int indexOfLastSlash = file.LastIndexOf("\\");
-                    string fileName = file.Substring(indexOfLastSlash);
-                    OutputWriter.WriteMessageOnNewLine(new string('-', indexOfLastSlash) + fileName);
-                }
+                    foreach (var file in Directory.GetFiles(currentPath))
+                    {
+                        int indexOfLastSlash = file.LastIndexOf("\\");
+                        string fileName = file.Substring(indexOfLastSlash);
+                        OutputWriter.WriteMessageOnNewLine(new string('-', indexOfLastSlash) + fileName);
+                    }
 
-                foreach (var directoryPath in Directory.GetDirectories(currentPath))
+                    foreach (var directoryPath in Directory.GetDirectories(currentPath))
+                    {
+                        //TODO Add it`s subfolders to the end of the queue
+                        subFolders.Enqueue(directoryPath);
+                    }
+                }
+                catch (UnauthorizedAccessException)
                 {
-                    //TODO Add it`s subfolders to the end of the queue
-                    subFolders.Enqueue(directoryPath);
+                    OutputWriter.DisplayException(ExceptionMessages.UnauthorizedAccessExceptionMessage);
                 }
             }
         }
