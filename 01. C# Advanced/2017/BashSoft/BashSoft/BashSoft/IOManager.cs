@@ -22,9 +22,10 @@ namespace BashSoft
                 //TODO Ptint the folder path
                 OutputWriter.WriteMessageOnNewLine(string.Format("{0}{1}", new string('-', identation), currentPath));
 
-                foreach (var VARIABLE in Directory.GetDirectories(currentPath))
+                foreach (var directoryPath in Directory.GetDirectories(currentPath))
                 {
                     //TODO Add it`s subfolders to the end of the queue
+                    subFolders.Enqueue(directoryPath);
                 }
             }
         }
