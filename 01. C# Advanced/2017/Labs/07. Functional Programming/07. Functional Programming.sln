@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sort Even Numbers", "07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum Numbers", "02. Sum Numbers\02. Sum Numbers.csproj", "{7466AB77-65D5-4D5B-854B-45B3CCFC07A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Add VAT", "01. Count Uppercase Words\04. Add VAT.csproj", "{7EFC63D1-C8C6-44A5-A565-10C3B46E3C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Filter by Age", "05. Filter by Age\05. Filter by Age.csproj", "{5C79D771-7ECF-4F2B-9277-EE0D245C59E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7466AB77-65D5-4D5B-854B-45B3CCFC07A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7466AB77-65D5-4D5B-854B-45B3CCFC07A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7466AB77-65D5-4D5B-854B-45B3CCFC07A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFC63D1-C8C6-44A5-A565-10C3B46E3C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFC63D1-C8C6-44A5-A565-10C3B46E3C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFC63D1-C8C6-44A5-A565-10C3B46E3C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFC63D1-C8C6-44A5-A565-10C3B46E3C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C79D771-7ECF-4F2B-9277-EE0D245C59E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C79D771-7ECF-4F2B-9277-EE0D245C59E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C79D771-7ECF-4F2B-9277-EE0D245C59E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C79D771-7ECF-4F2B-9277-EE0D245C59E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

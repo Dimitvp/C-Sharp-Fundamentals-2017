@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}</ProjectGuid>
+    <ProjectGuid>{B041ADAF-C95C-425C-9F1D-33C35CFC922E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_10.Use_Your_Chains__Buddy</RootNamespace>
-    <AssemblyName>_10.Use_Your_Chains__Buddy</AssemblyName>
+    <RootNamespace>_03.First_Name</RootNamespace>
+    <AssemblyName>_03.First_Name</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UseYourChainsBuddy.cs" />
+    <Compile Include="FirstName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Series of Letters", "03. Series of Letters\03. Series of Letters.csproj", "{718B0F82-E9E7-438E-9A95-2F9CFDD46416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Replace a tag", "04. Replace a tag\04. Replace a tag.csproj", "{3FFC0964-A7DC-4EDA-B629-518ED06C1092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Use Your Chains, Buddy", "10. Use Your Chains, Buddy\10. Use Your Chains, Buddy.csproj", "{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{718B0F82-E9E7-438E-9A95-2F9CFDD46416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{718B0F82-E9E7-438E-9A95-2F9CFDD46416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{718B0F82-E9E7-438E-9A95-2F9CFDD46416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFC0964-A7DC-4EDA-B629-518ED06C1092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFC0964-A7DC-4EDA-B629-518ED06C1092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFC0964-A7DC-4EDA-B629-518ED06C1092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFC0964-A7DC-4EDA-B629-518ED06C1092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9D1DC0-63D5-4D0E-8700-794138AE69B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
