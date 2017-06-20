@@ -41,6 +41,9 @@ namespace BashSoft
                 case "help":
                     TryGetHelp(input, data);
                     break;
+                case "show":
+                    TryShowWantedData(input, data);
+                    break;
                 case "filter":
                     //TODO implement after funcitunality is implemented
                     break;
@@ -59,6 +62,24 @@ namespace BashSoft
                 default:
                     DisplayInvalidCommandMessage(input);
                     break;
+            }
+        }
+
+        private static void TryShowWantedData(string input, string[] data)
+        {
+            if (data.Length == 2)
+            {
+                string courseName = data[1];
+                StudentRepository.GetAllStudentsFromCourse(courseName);
+            }else if (data.Length == 3)
+            {
+                string courseName = data[1];
+                string userName = data[2];
+                StudentRepository.GetStudentScoresFromCourse(courseName, userName);
+            }
+            else
+            {
+                DisplayInvalidCommandMessage(input);
             }
         }
 
