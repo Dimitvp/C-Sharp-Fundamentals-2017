@@ -17,7 +17,52 @@ namespace BashSoft
             {
                 case "open":
                     TryOpenFile(input, data);
+                    break;
+                case "mkdir":
+                    TryCreateDirectory(input, data);
+                    break;
+                case "ls":
+                    TryTraverseFolders(input, data);
+                    break;
+                case "cmp":
+                    TryCompareFiles(input, data);
+                    break;
+                case "cdRel":
+                    TryChangePathRelatively(input, data);
+                    break;
+                case "cdAbs":
+                    TryChangePathAbsolute(input, data);
+                    break;
+                case "readDb":
+                    TryReadDatabaseFromFile(input, data);
+                    break;
+                case "help":
+                    TryGetHelp(input, data);
+                    break;
+                case "filter":
+                    //TODO implement after funcitunality is implemented
+                    break;
+                case "order":
+                    //TODO implement after funcitunality is implemented
+                    break;
+                case "decOrder":
+                    //TODO implement after funcitunality is implemented
+                    break;
+                case "download":
+                    //TODO implement after funcitunality is implemented
+                    break;
+                case "downloadAsynch":
+                    //TODO implement after funcitunality is implemented
+                    break;
+                default:
+                    DisplayInvalidCommandMessage(input);
+                    break;
             }
+        }
+
+        private static void TryOpenFile(string input, string[] data)
+        {
+            
         }
     }
 }

@@ -29,6 +29,7 @@ namespace BashSoft
         {
             string input = Console.ReadLine();
 
+
             while (!string.IsNullOrEmpty(input))
             {
                 string[] tokens = input.Split(' ');
