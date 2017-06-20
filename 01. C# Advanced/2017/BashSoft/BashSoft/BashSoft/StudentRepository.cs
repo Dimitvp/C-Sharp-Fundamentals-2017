@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SimpleJudge;
 
 namespace BashSoft
 {
@@ -11,13 +13,13 @@ namespace BashSoft
         public static bool isDataInitialized = false;
         private static Dictionary<string, Dictionary<string, List<int>>> studentByCourse;
 
-        public static void InitializeData()
+        public static void InitializeData(string fileName)
         {
             if (!isDataInitialized)
             {
                 OutputWriter.WriteMessageOnNewLine("Reading data...");
                 studentByCourse = new Dictionary<string, Dictionary<string, List<int>>>();
-                ReadData();
+                ReadData(fileName);
             }
             else
             {
@@ -25,32 +27,45 @@ namespace BashSoft
             }
         }
 
-        private static void ReadData()
+        private static void ReadData(string fileName)
         {
-            string input = Console.ReadLine();
-
-
-            while (!string.IsNullOrEmpty(input))
+            string path = SessionData.currentPath + "\\" + fileName;
+            if (File.Exists(path))
             {
-                string[] tokens = input.Split(' ');
-                string course = tokens[0];
-                string student = tokens[1];
-                int mark = int.Parse(tokens[2]);
-
-                //TODO: Add the course and student if the don`t exist
-                if (!studentByCourse.ContainsKey(course))
+                string[] allInputLines = File.ReadAllLines(path);
+                for (int line = 0; line < allInputLines.Length; line++)
                 {
-                    studentByCourse.Add(course, new Dictionary<string, List<int>>());
+                    
+                    if (!string.IsNullOrEmpty(allInputLines[line]))
+                    {
+                        string[] data = allInputLines[line].Split(' ');
+                    }
                 }
-                //TODO: Add the mark
-                if (!studentByCourse[course].ContainsKey(student))
-                {
-                    studentByCourse[course].Add(student, new List<int>());
-                }
-
-                studentByCourse[course][student].Add(mark);
-                input = Console.ReadLine();
             }
+            //string input = Console.ReadLine();
+
+
+            //while (!string.IsNullOrEmpty(input))
+            //{
+                //string[] tokens = input.Split(' ');
+                //string course = tokens[0];
+                //string student = tokens[1];
+                //int mark = int.Parse(tokens[2]);
+
+                ////TODO: Add the course and student if the don`t exist
+                //if (!studentByCourse.ContainsKey(course))
+                //{
+                //    studentByCourse.Add(course, new Dictionary<string, List<int>>());
+                //}
+                ////TODO: Add the mark
+                //if (!studentByCourse[course].ContainsKey(student))
+                //{
+                //    studentByCourse[course].Add(student, new List<int>());
+                //}
+
+                //studentByCourse[course][student].Add(mark);
+                //input = Console.ReadLine();
+            //}
 
             isDataInitialized = true;
             OutputWriter.WriteMessageOnNewLine("Data read!");
